@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" font-family="Arial, sans-serif">
+<rect width="640" height="400" fill="#eef2f6"/>
+<rect x="30" y="24" width="580" height="352" rx="12" fill="#fff" stroke="#d6dde5"/>
+<rect x="30" y="24" width="580" height="36" rx="12" fill="#0b2f52"/><rect x="30" y="48" width="580" height="12" fill="#0b2f52"/>
+<circle cx="52" cy="42" r="5" fill="#e2463c"/><circle cx="68" cy="42" r="5" fill="#f0a830"/><circle cx="84" cy="42" r="5" fill="#3cc77b"/>
+<text x="320" y="47" font-size="14" fill="#fff" text-anchor="middle">palindrome.py — Python</text>
+<rect x="30" y="60" width="580" height="316" fill="#14212e"/>
+<text x="50" y="94" font-family="Courier New, monospace" font-size="14" fill="#e6edf3">number&#160;=&#160;int(input("Enter&#160;a&#160;number:&#160;"))</text><text x="50" y="118" font-family="Courier New, monospace" font-size="14" fill="#e6edf3">original,&#160;reverse&#160;=&#160;number,&#160;0</text><text x="50" y="142" font-family="Courier New, monospace" font-size="14" fill="#8fd3c9">while&#160;number&#160;&gt;&#160;0:</text><text x="50" y="166" font-family="Courier New, monospace" font-size="14" fill="#e6edf3">&#160;&#160;&#160;&#160;digit&#160;=&#160;number&#160;%&#160;10</text><text x="50" y="190" font-family="Courier New, monospace" font-size="14" fill="#e6edf3">&#160;&#160;&#160;&#160;reverse&#160;=&#160;reverse&#160;*&#160;10&#160;+&#160;digit</text><text x="50" y="214" font-family="Courier New, monospace" font-size="14" fill="#e6edf3">&#160;&#160;&#160;&#160;number&#160;=&#160;number&#160;//&#160;10</text><text x="50" y="238" font-family="Courier New, monospace" font-size="14" fill="#8fd3c9">if&#160;original&#160;==&#160;reverse:</text><text x="50" y="262" font-family="Courier New, monospace" font-size="14" fill="#e6edf3">&#160;&#160;&#160;&#160;print(original,&#160;"is&#160;a&#160;palindrome.")</text>
+<rect x="30" y="300" width="580" height="76" fill="#0d1620"/>
+<text x="50" y="326" font-family="Courier New, monospace" font-size="13" fill="#9aa7b4">$ python palindrome.py</text>
+<text x="50" y="348" font-family="Courier New, monospace" font-size="13" fill="#3cc77b">Enter a number: 121 → 121 is a palindrome.</text>
+</svg>
